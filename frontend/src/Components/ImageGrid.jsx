@@ -1,13 +1,13 @@
 import React from 'react';
-import NagCard from './NagCard';
+import ImageCard from './ImageCard';
 
 class AboutPage extends React.Component{
     render(){
         return (
             <div className="nag-grid-container">
-                <NagCard/>
+                {this.props.images.map(img => <ImageCard img={img}/> )}
+                <div className="nag-end"></div>
             </div>
-            
         );
     }
 }

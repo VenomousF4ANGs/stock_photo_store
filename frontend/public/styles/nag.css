@@ -1,0 +1,45 @@
+.nag-end
+{
+    clear: both;
+}
+.nag-grid-container
+{
+
+}
+.nag-card
+{
+    width:20em;
+    float: left;
+    margin: 1em;
+    /* box-shadow: 0 0 0.5em #dddddd; */
+    border-width: 1px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    position: relative;
+}
+.nag-card .nag-card-image
+{
+    /* margin: 0.5em; */
+    /* border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em; */
+    width: auto;
+    height: auto;
+}
+.nag-card .nag-card-image img
+{
+    width:100%;
+    height:auto;
+}
+.nag-card .nag-card-content
+{
+    margin: 0.5em;
+    margin-top: 0;
+    line-height: 2em;
+    display: block;
+}
+.nag-card .nag-card-content h1
+{
+    font-size: 20px;
+}

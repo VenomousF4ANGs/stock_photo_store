@@ -7,21 +7,23 @@ class NavBar extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <div className="navbar-item">
-            <img
-              src="https://bulma.io/images/bulma-logo.png"
-              width="70"
-              height="20"
-              alt="Logo"
-            />
+            <Link to="/">
+              <img
+                src="/resources/icon.png"
+                width="30"
+                height="30"
+                alt="Logo"
+              />
+            </Link>
           </div>
         </div>
 
         <div id="NavBar" className="navbar-menu is-active">
           <div className="navbar-start">
             
-            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"black" }} to="/search">Search</Link></div>
-            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"black" }} to="/upload">Upload</Link></div>
-            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"black" }} to="/about">About</Link></div>
+            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"grey" }} to="/search">Search</Link></div>
+            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"grey" }} to="/upload">Upload</Link></div>
+            <div className="navbar-item"><Link style={{ textDecoration: 'none' , color:"grey" }} to="/about">About</Link></div>
             
           </div>
         </div>
